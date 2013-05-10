@@ -1,0 +1,17 @@
+<div class="quizz-head">
+	{{title}}
+</div>
+<ul class="content-answers">
+	{{#result}}
+		<li>
+			<div class="question-number">{{current}}</div>
+			<div class="question">{{text}}</div>
+			<div class="answers">
+				<div class="your-answer">Your answer : <span>{{arrAnswerText}}</span></div>
+				<div class="true-answer">The right answer : <span>{{trueAnswer answers}}</span></div>
+				<div class="more">{{more}}</div>
+			</div>
+		</li>
+	{{/result}}
+	<li><a href="{{btnevent}}">{{btn}}</a></li>
+</ul>

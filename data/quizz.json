@@ -1,0 +1,99 @@
+{
+    "questions": [
+        {
+        	"id" : 0,
+        	"text" : "Question 1 ?",
+        	"answers" : [
+        		{
+        			"text" : "answer 11",
+        			"secret" : "false"
+    			},
+				{
+        			"text" : "answer 12",
+        			"secret" : "true"
+    			},
+				{
+        			"text" : "answer 13",
+        			"secret" : "false"
+    			}
+		    ],
+		    "more" : "More bla bla about the right answer"
+        },
+        {
+        	"id" : 1,
+        	"text" : "Question 2 ?",
+        	"answers" : [
+        		{
+        			"text" : "answer 21",
+        			"secret" : "false"
+    			},
+				{
+        			"text" : "answer 22",
+        			"secret" : "false"
+    			},
+				{
+        			"text" : "answer 23",
+        			"secret" : "true"
+    			}
+		    ],
+		    "more" : "More bla bla about the right answer"
+        },
+        {
+        	"id" : 3,
+        	"text" : "Question 3 ?",
+        	"answers" : [
+        		{
+        			"text" : "answer 31",
+        			"secret" : "true"
+    			},
+				{
+        			"text" : "answer 32",
+        			"secret" : "false"
+    			},
+				{
+        			"text" : "answer 33",
+        			"secret" : "false"
+    			}
+		    ],
+		    "more" : "More bla bla about the right answer"
+        },
+        {
+        	"id" : 4,
+        	"text" : "Question 4 ?",
+        	"answers" : [
+        		{
+        			"text" : "answer 41",
+        			"secret" : "false"
+    			},
+				{
+        			"text" : "answer 42",
+        			"secret" : "true"
+    			},
+				{
+        			"text" : "answer 43",
+        			"secret" : "false"
+    			}
+		    ],
+		    "more" : "More bla bla about the right answer"
+        },
+        {
+        	"id" : 5,
+        	"text" : "Question 5 ?",
+        	"answers" : [
+        		{
+        			"text" : "answer 51",
+        			"secret" : "false"
+    			},
+				{
+        			"text" : "answer 52",
+        			"secret" : "false"
+    			},
+				{
+        			"text" : "answer 53",
+        			"secret" : "true"
+    			}
+		    ],
+		    "more" : "More bla bla about the right answer"
+        }
+    ]
+}

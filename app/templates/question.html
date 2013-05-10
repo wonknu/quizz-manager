@@ -1,0 +1,19 @@
+<div class="quizz-head">
+	<div class="title">{{current}}</div>
+</div>
+<ul class="list-answer">
+	<li class="question-text">
+		<div>{{text}}</div>
+	</li>
+    {{#answers}}
+    	<li class="answer">
+            <a href="#" >
+            	<input data-secret='{{secret}}' type="checkbox" />
+        		<label>{{hasHTML text}}</label>
+            </a>
+        </li>
+    {{/answers}}
+	<li class="validate">
+		<button>{{btn}}</button>
+	</li>
+</ul>
